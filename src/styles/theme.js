@@ -27,8 +27,8 @@ const typography = {
 };
 
 const components = {
-    defaultPadding: `${spacing.xxl} 0`,
-    condensedPadding: `${spacing.xl} 0`
+    defaultVerticalPadding: `${spacing.xxl} 0`,
+    condensedVerticalPadding: `${spacing.xl} 0`
 };
 
 //this is probably stupid

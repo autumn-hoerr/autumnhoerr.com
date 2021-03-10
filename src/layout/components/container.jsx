@@ -1,20 +1,25 @@
 import React from "react";
 import styled from 'styled-components';
 
+
+const StyledSection = styled.section`
+    padding: ${props => props.condensed ? 
+        props.theme.components.condensedVerticalPadding : 
+        props.theme.components.defaultVerticalPadding};
+`;
+
 const StyledContainer = styled.div`
     max-width: ${props => props.theme.page.maxWidth};
-    padding: ${props => props.condensed ? 
-                    props.theme.components.condensedPadding : 
-                    props.theme.components.defaultPadding};
+    padding: ${props => props.theme.spacing.l};
     margin: 0 auto;
 `;
 
 const Container = (props) => (
-    <section className={props.classname}>
+    <StyledSection className={props.classname}>
         <StyledContainer>
             {props.children}
         </StyledContainer>
-    </section>
+    </StyledSection>
 );
 
 export default Container;
