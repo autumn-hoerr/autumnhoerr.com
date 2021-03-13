@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { ThemeProvider } from 'styled-components';
-import SEO from "./components/seo";
-import config from "../../data/SiteConfig";
-import GlobalStyles from "../styles/globalStyles";
-import defaultTheme from "../styles/theme.js";
+import SEO from "@components/seo";
+import config from "@data/SiteConfig";
+import GlobalStyles from "@styles/globalStyles";
+import defaultTheme from "@styles/theme.js";
 
 export default class BaseLayout extends React.Component {
     render(){

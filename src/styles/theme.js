@@ -1,5 +1,6 @@
 const devices = {
-    //desktop, mobile, etc.
+    tablet: "768px",
+    desktop: "1024px"
 }
 
 const page = {
@@ -10,7 +11,8 @@ const colors = {
     white: "#FFF",
     black: "#1F2326",
     darkGray: "#aeaebb",
-    lightGray: "#fafafc"
+    lightGray: "#fafafc",
+    merlot: "#7F171F"
 };
 
 const spacing = {
