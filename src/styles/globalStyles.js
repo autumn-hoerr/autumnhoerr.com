@@ -22,6 +22,15 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
+    p{
+        margin: 0 0 1em 0;
+        line-height: 1.4;
+    }
+
+    h3{
+        font-size: 1.2em
+    }
+
     // main{
     //     display: grid;
     //     grid-template-columns: 1fr;

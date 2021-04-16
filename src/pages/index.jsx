@@ -1,8 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
 import Layout from "@layout";
-import Header from "@components/header";
-import Footer from "@components/footer";
 import Container from "@atoms/container";
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -37,7 +35,6 @@ const IntroText = styled.p`
 const Home = (props) => {
     return(
         <Layout>
-            <Header />
             <Container>
                 <Intro>
                     <StaticImage 
@@ -54,7 +51,7 @@ const Home = (props) => {
                     </IntroText>
                 </Intro>
             </Container>
-            <Footer />
+            
         </Layout>
     )
 }

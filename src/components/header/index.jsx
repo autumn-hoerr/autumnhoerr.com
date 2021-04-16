@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Container from "@atoms/container";
 import SocialLinks from "@molecules/socialLinks";
-import H1 from "@atoms/h1";
+import Navigation from "@molecules/navigation";
 
 const StyledHeader = styled.div`
     border-bottom: 1px solid ${props => props.theme.colors.black};
@@ -12,10 +12,11 @@ const StyledHeader = styled.div`
     padding-bottom: ${props => props.theme.spacing.l};
 `;
 
+
 const Header = () => (
     <Container>
         <StyledHeader>
-            <H1 content="Dan Hoerr" />
+            <Navigation siteTitle />
             <SocialLinks />
         </StyledHeader>
     </Container>

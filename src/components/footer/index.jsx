@@ -1,9 +1,13 @@
 import React from "react";
 import styled from 'styled-components';
 import Container from '@atoms/container';
+import Navigation from "@molecules/navigation";
 
 const StyledFooter = styled.footer`
     border-top: 1px solid ${props => props.theme.colors.black};
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 `;
 
 const Copy = styled.span`
@@ -14,6 +18,7 @@ const Copy = styled.span`
 const Footer = () => (
     <Container>
         <StyledFooter>
+                <Navigation />
                 <Copy>&copy;Dan Hoerr, { new Date().getFullYear() }</Copy>
         </StyledFooter>
     </Container>

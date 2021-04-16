@@ -1,0 +1,65 @@
+{
+    "email" : "dhoerr@gmail.com",
+	"phone" : "(410) 807-6800",
+	"address" : "Wilmington, NC",
+	"website" : "danhoerr.com",
+	"github" : "https://github.com/dan-hoerr",
+    "education" : {
+        "college" : "Maryland Institute College of Art",
+        "location" : "Baltimore, MD",
+        "class" : "2007",
+        "degree" : "BFA in Interactive Media (now known as Interactive Arts)"
+    },
+    "description" : "I consider front end development a skill to be mastered and enjoy leading teams of similarly minded developers. While my technical experience is mostly memorizing the few thousand combinations and unique interactions of the key/value pairs in CSS, architecting semantic HTML, and migrating codebases from jQuery to vanilla javascript I have enough knowledge of webpack and devops to break most configurations. My passion is for learning new things. My wife would tell you that I \"collect hobbies\", but I'm really collecting knowledge and experiences. Over the years those hobbies have included homebrewing, 3D printing, DIY home improvement, welding/fabrication, woodworking, and metalworking/blacksmithing",
+    "jobs" : [
+        {
+            "company" : "AppDirect",
+            "title" : "Head of Web Development",
+            "years" : "2016 - present",
+            "description" : "Since 2016 I've led the development team for the Marketing organization within AppDirect. We are responsible for maintaining the fleet of sites to support various go to market motions for the company. During my tenure, we've grown from a dev team of 2 to 5, a company of over 500 employees, and redesigned AppDirect.com at least 4 times across >3 content management systems.",
+            "projects" : [
+                {
+                    "title" : "AppDirect.com",
+                    "URL" : "https://www.appdirect.com",
+                    "description": "brief description of what I did and was responsible for"
+                },
+                {
+                    "title" : "AppSmart.com",
+                    "URL" : "https://www.appsmart.com",
+                    "description": "brief description of what I did and was responsible for"
+                },
+                {
+                    "title" : "AppDirect.com",
+                    "URL" : "https://www.appdirect.com",
+                    "description": "brief description of what I did and was responsible for"
+                }
+            ]
+        },
+        {
+            "company" : "AppDirect",
+            "title" : "Web Developer",
+            "years" : "2012 - 2016",
+            "description" : "I started at AppDirect as a contractor in early 2012 to support the acquisition and rebranding of jBilling. After the project, they brought me on full time. Over the years there were additional acquisitions to rebrand, a multitenant ruby on rails app integrated with the marketplace to provide documentation to customers, and numerous company initiatives  to support.",
+            "projects" : [
+                {
+                    "title": "jBilling.com",
+                    "URL" : "https://www.jbilling.com",
+                    "description" : "Marketing site for jBilling; acquired and rebranded by AppDirect in 2012. This was my first project for AppDirect and it mostly remains as originally launched. I worked with a senior developer to platform the site in Expression Engine, and was responsible for a lot of the HTML, CSS, and JS that you can still see on the site."
+                }
+            ]
+        },
+        {
+            "company" : "idfive",
+            "title" : "Senior Web Developer",
+            "years" : "2010 - 2012",
+            "description" : "Led frontend production and integration efforts, oversaw production vendor selection and management, responsive/mobile design, occasional wireframing, and analytics analysis. Unfortunately, no projects that I worked on remain online in their original form. Clients included the University of Baltimore, The University of Maryland School of Pharmacy, ASQ/Paul H. Brookes Publishing Co., Inc. and Vaccinogen among others."
+        },
+        {
+            "company" : "The National Museum of American History",
+            "title" : "New Media Assistant",
+            "years" : "2008 - 2010",
+            "description" : "Everything from content entry for online exhibitions to designing, producing and maintaining the email newsletter and touchscreen exhibition kiosks."
+        }
+    ]
+}
+
