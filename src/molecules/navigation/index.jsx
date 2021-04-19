@@ -33,12 +33,10 @@ const Navigation = (props) => {
     }
 
     return(
-        <nav ariaLabel="Main navigation">
+        <nav aria-label={props.label}>
             <StyledNav>
                 <li>{homelink}</li>
-                { 
-                    // <li><StyledLink to="/resume" activeClassName="is-active">Resume</StyledLink></li> 
-                }
+                <li><StyledLink to="/resume" activeClassName="is-active">Resume</StyledLink></li> 
             </StyledNav>
 
         </nav>

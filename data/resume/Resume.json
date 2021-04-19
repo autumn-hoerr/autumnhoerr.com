@@ -10,13 +10,13 @@
         "class" : "2007",
         "degree" : "BFA in Interactive Media (now known as Interactive Arts)"
     },
-    "description" : "I consider front end development a skill to be mastered and enjoy leading teams of similarly minded developers. While my technical experience is mostly memorizing the few thousand combinations and unique interactions of the key/value pairs in CSS, architecting semantic HTML, and migrating codebases from jQuery to vanilla javascript I have enough knowledge of webpack and devops to break most configurations. My passion is for learning new things. My wife would tell you that I \"collect hobbies\", but I'm really collecting knowledge and experiences. Over the years those hobbies have included homebrewing, 3D printing, DIY home improvement, welding/fabrication, woodworking, and metalworking/blacksmithing",
+    "description" : "I’m a front-end developer and manager who loves exploring, learning, and perfecting my craft. I’ve been lucky to work with and mentor teams of people who share the same passion. My technical expertise started with the core of HTML, CSS, and Javascript but has expanded over time to the broader tasks of how projects are structured, how to develop code for ease of understanding and modularity, and even to devops. I enjoy solving the small-scale CSS oddities as much as planning out our largest site deployments. Ultimately my passion is for expanding my knowledge, my capabilities, and the quality of my work. This passion extends past web development into all of my hobbies be it homebrewing, 3D printing, welding, woodworking, or metalworking. There is always more to explore, learn, and share.",
     "jobs" : [
         {
             "company" : "AppDirect",
             "title" : "Head of Web Development",
             "years" : "2016 - present",
-            "description" : "Since 2016 I've led the development team for the Marketing organization within AppDirect. We are responsible for maintaining the fleet of sites to support various go to market motions for the company. During my tenure, we've grown from a dev team of 2 to 5, a company of over 500 employees, and redesigned AppDirect.com at least 4 times across >3 content management systems.",
+            "description" : "Since 2016 I’ve led the development team for the Marketing organization within AppDirect. We are responsible for maintaining the fleet of sites to support various go-to-market motions for the company. During my tenure, we’ve grown from a dev team of 2 to 5, a company of 80 to over 500 employees, and redesigned and deployed AppDirect.com 4 times as our needs and goals changed.",
             "projects" : [
                 {
                     "title" : "AppDirect.com",

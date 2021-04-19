@@ -16,7 +16,7 @@ const StyledHeader = styled.div`
 const Header = () => (
     <Container>
         <StyledHeader>
-            <Navigation siteTitle />
+            <Navigation siteTitle label="Main Navigation" />
             <SocialLinks />
         </StyledHeader>
     </Container>

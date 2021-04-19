@@ -18,7 +18,7 @@ const Copy = styled.span`
 const Footer = () => (
     <Container>
         <StyledFooter>
-                <Navigation />
+                <Navigation label="Footer Navigation" />
                 <Copy>&copy;Dan Hoerr, { new Date().getFullYear() }</Copy>
         </StyledFooter>
     </Container>
