@@ -27,7 +27,7 @@ const StyledNav = styled(UnstyledList)`
 const Navigation = (props) => {
     let homelink;
     if (props.siteTitle ){
-        homelink = <StyledMast to="/" activeClassName="is-active">Dan Hoerr</StyledMast>
+        homelink = <StyledMast to="/" activeClassName="is-active">Autumn Hoerr</StyledMast>
     } else {
         homelink = <StyledLink to="/" activeClassName="is-active">Home</StyledLink>
     }

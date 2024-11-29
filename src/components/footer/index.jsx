@@ -19,7 +19,7 @@ const Footer = () => (
     <Container>
         <StyledFooter>
                 <Navigation label="Footer Navigation" />
-                <Copy>&copy;Dan Hoerr, { new Date().getFullYear() }</Copy>
+                <Copy>&copy;Autumn Hoerr, { new Date().getFullYear() }</Copy>
         </StyledFooter>
     </Container>
 )

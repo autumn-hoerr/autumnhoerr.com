@@ -38,8 +38,8 @@ const Home = (props) => {
             <Container>
                 <Intro>
                     <StaticImage 
-                        src="../../static/imgs/dan_ev.jpg"
-                        alt="Dan and his son, Everett, in a restaurant pressing their foreheads together and smiling."
+                        src="../../static/imgs/autumn_ev.jpg"
+                        alt="Autumn and her son, Everett, in a restaurant pressing their foreheads together and smiling."
                         placeholder="blurred"
                         loading="eager"
                         className="c-intro__image"
@@ -47,7 +47,7 @@ const Home = (props) => {
                         
                     />
                     <IntroText>
-                         I'm the Head of Web Development for <a href="https://www.appdirect.com">AppDirect</a>. I live and work remotely from Wilmington, NC.
+                         I'm a Sr. Developer for <a href="https://www.allovue.com/">Allovue</a>. I live and work remotely from Wilmington, NC.
                     </IntroText>
                 </Intro>
             </Container>

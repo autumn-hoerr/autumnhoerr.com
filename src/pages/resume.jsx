@@ -46,7 +46,7 @@ const Resume = (props) => {
             <Container>
                 <ResumeRow>
                     <ResumeDesc>
-                        <h1>Dan Hoerr</h1>
+                        <h1>Autumn Hoerr</h1>
                         <SmooshedP>{res.description}</SmooshedP>                        
                     </ResumeDesc>
                     <ResumeMeta pushdown>
